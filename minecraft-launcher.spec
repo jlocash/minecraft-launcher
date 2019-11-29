@@ -9,6 +9,8 @@ Source0:        https://launcher.mojang.com/download/linux/x86_64/%{name}_%{vers
 Source1:        minecraft-launcher.desktop
 Source2:        https://launcher.mojang.com/download/minecraft-launcher.svg
 
+Requires:	    java-1.8.0-openjdk
+
 %description
 Minecraft Launcher
 
