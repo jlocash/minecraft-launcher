@@ -1,5 +1,5 @@
 Name:           minecraft-launcher
-Version:        2.1.15166
+Version:        2.1.17785
 Release:        1%{?dist}
 Summary:        Minecraft Launcher
 License:        Proprietary
@@ -30,6 +30,9 @@ install -D -m 0644 %{SOURCE2} %{buildroot}%{_datadir}/icons/hicolor/symbolic/app
 %{_datadir}/icons/hicolor/symbolic/apps/%{name}.svg 
 
 %changelog
+* Wed Nov 25 00:59:20 EST 2020 Joshua Locash <locashjosh@gmail.com> - 2.1.17785-1
+- new version
+
 * Fri Jun 05 2020 Joshua Locash <locashjosh@gmail.com> - 2.1.15166-1
 - new version
 
